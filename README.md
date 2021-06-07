@@ -5,13 +5,16 @@ and a simple HTML page that shows the buses information.
 
 ## Up and Running
 
-First, copy `.env.example` file to `.env` edit the file with your MTA api key
-and to bring up the proxy server, run:
+First, copy `.env.example` file to `.env` edit the file with the MTA API key you
+can get by registering [here](https://register.developer.obanyc.com/)  and to bring up the proxy server, run:
 
 - `npm i`
 - `node index.js` or `npm start`
 
-Then open the `index.html`page to check the buses information
+Edit `index.html` and set you mapbox API key, then open the `index.html` page
+in the browser to check the buses information.
+
+Select a stop and enjoy! :)
 
 ## Reason to need a proxy server
 
