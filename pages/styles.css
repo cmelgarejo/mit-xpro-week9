@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#selectedStop {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0.3em black solid;
+}
+
+h2 {
+  margin-block-start: 0.0108em;
+  margin-block-end: 0.0108em;
+}
+
+#incommingBuses {
+  padding-left: 10px;
+}
+
+.map-overlay {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+}
+
+.bus-marker {
+  background-image: url('bus.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.bus-stop-marker {
+  background-image: url('bus-stop.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.selected-bus-stop-marker {
+  background-image: url('bus-stop.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0.3em rebeccapurple solid;
+}
+
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
